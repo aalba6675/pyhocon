@@ -8,7 +8,8 @@ The source-of-truth is Java config-1.3.2.jar.
 
 ## Papercuts
 
+* #125: a complex self-substitution
 * #145: handle self-references in child nodes
 * #141: the answer to the tests (and therefore the code) is wrong; fix both
 * #110: merging configs: we also need to merge with all ConfigTree on the overriden_value linked list
-* #95: unexpected mutations of caller and fallback configs
+*  #95: unexpected mutations of caller and fallback configs
