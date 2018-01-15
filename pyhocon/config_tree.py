@@ -86,7 +86,7 @@ class ConfigTree(OrderedDict):
                     l.tokens.append(value)
                     l.recompute()
                 elif isinstance(l, ConfigTree) and isinstance(value, ConfigValues):
-                    value.tokens.insert(0,l)
+                    value.tokens.insert(0, l)
                     value.overriden_value = l
                     value.recompute()
                     value.parent = self
