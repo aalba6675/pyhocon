@@ -8,6 +8,7 @@ The source-of-truth is Java config-1.3.2.jar.
 
 ## Papercuts
 
+* #137: from_dict option to create as root ConfigTree
 * #125: a complex self-substitution
 * #145: handle self-references in child nodes
 * #141: the answer to the tests (and therefore the code) is wrong; fix both
